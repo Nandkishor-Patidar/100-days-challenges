@@ -1,0 +1,13 @@
+const getData=()=>{
+  promise.then(
+    (result)=>{
+      const response = JSON.parse(result)
+      console.log(response.count);
+    },
+    (error)=>{
+      console.log('we have enontered an error');
+    }
+  )
+}
+
+getData()
