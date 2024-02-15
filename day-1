@@ -1,11 +1,2 @@
-const a = 10;
-const b = 20;
-const totle=30;
-let getFulfilledPromise= new Promise(function(resolve,reject){
-  if(a+b===totle){
-    resolve(`yes ,${a} + ${b}is equal to ${totle}`)
-  }else{
-    reject(`no, ${a}+ ${b} is not equal to ${totle}`)
-  }
-})
-console.log(getFulfilledPromise);
+
+console.log("hello world")
