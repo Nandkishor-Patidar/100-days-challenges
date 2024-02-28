@@ -1,4 +1,4 @@
-let a = 20;
+let a = 100;
 function squareRoot(num){
     let result = a/2;
     let x;
