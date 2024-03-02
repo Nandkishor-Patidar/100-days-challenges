@@ -1,6 +1,6 @@
 const a = 221;
-const b = 210;
-const c = 230;
+const b = 211;
+const c = 231;
 const result1 = a % 10;
 const result2 = b % 10;
 const result3 = c % 10;
