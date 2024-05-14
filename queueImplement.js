@@ -40,6 +40,8 @@ queue.enqueue(8);
 queue.enqueue(6);
 queue.enqueue(4);
 console.log(`Queue after adding items:`,queue.items);
+console.log(queue.size());
+console.log(queue.isEmpty());
 queue.dequeue();
 console.log("Queue after deleting the first item:",queue.items);
 console.log("First item of the queue = " + queue.peek());
